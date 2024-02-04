@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="cambam.DXF">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <mat />
+      <objects>
+        <pline id="23" Closed="true">
+          <mat />
+          <pts>
+            <p b="0.57735026918962573">35,24.9499961715,0</p>
+            <p b="0.57735026918962573">20,33.6102502093444,0</p>
+            <p b="0.57735026918962573">20,16.2897421336556,0</p>
+          </pts>
+        </pline>
+        <pline id="24" Closed="true">
+          <mat />
+          <pts>
+            <p b="0.57735026918962573">-15,24.9499961715,0</p>
+            <p b="0.57735026918962573">-30,33.6102502093444,0</p>
+            <p b="0.57735026918962573">-30,16.2897421336556,0</p>
+          </pts>
+        </pline>
+        <pline id="25" Closed="true">
+          <mat />
+          <pts>
+            <p b="0.33739859140004314">34.2798014158364,85.3187646465991,0</p>
+            <p>15,100,0</p>
+            <p>15,50,0</p>
+            <p>-15,50,0</p>
+            <p b="0.3373985913995573">-15,100,0</p>
+            <p>-34.2798014158,85.3187646466,0</p>
+            <p b="0.49544048637515431">-49.0997517697955,31.5984519797489,0</p>
+            <p>-25,-0.0500038285,0</p>
+            <p b="0.49544048637515431">25,-0.0500038285000102,0</p>
+            <p>49.0997517698,31.5984519798,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <OutFile>C:\Users\BuLuT\Desktop\ödev\proje ekibi 3. gün ödev\cambam.DXF.nc</OutFile>
+    <SplineCurveSteps>12</SplineCurveSteps>
+    <TextCurveSteps>5</TextCurveSteps>
+  </MachiningOptions>
+  <machineops>
+    <mop xsi:type="MOPProfile">
+      <ToolDiameter>0</ToolDiameter>
+      <PlungeFeedrate>30</PlungeFeedrate>
+      <CutFeedrate>300</CutFeedrate>
+      <ClearancePlane>1.5</ClearancePlane>
+      <primitive>
+        <prim>12</prim>
+        <prim>11</prim>
+      </primitive>
+      <mat />
+      <StockSurface>0</StockSurface>
+      <TargetDepth>-2</TargetDepth>
+      <DepthIncrement>1</DepthIncrement>
+      <FinalDepthIncrement>0</FinalDepthIncrement>
+      <CutWidth>0</CutWidth>
+      <StepOver>0.4</StepOver>
+      <InsideOutside>Inside</InsideOutside>
+    </mop>
+    <mop xsi:type="MOPProfile">
+      <ToolDiameter>0</ToolDiameter>
+      <PlungeFeedrate>30</PlungeFeedrate>
+      <CutFeedrate>300</CutFeedrate>
+      <ClearancePlane>1.5</ClearancePlane>
+      <primitive>
+        <prim>25</prim>
+      </primitive>
+      <mat />
+      <StockSurface>0</StockSurface>
+      <TargetDepth>-2</TargetDepth>
+      <DepthIncrement>1</DepthIncrement>
+      <FinalDepthIncrement>0</FinalDepthIncrement>
+      <CutWidth>0</CutWidth>
+      <StepOver>0.4</StepOver>
+    </mop>
+  </machineops>
+  <ActiveLayer>0</ActiveLayer>
+</CADFile>
